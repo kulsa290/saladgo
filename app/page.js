@@ -31,10 +31,12 @@ export default function SaladGoWebsite() {
       {/* Navbar */}
       <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-green-100 shadow-sm">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-2xl bg-green-600 flex items-center justify-center text-white font-bold text-xl">
-              S
-            </div>
+          <div className="flex items-center gap-3">
+            <img 
+              src="/logo.svg" 
+              alt="SaladGo Logo" 
+              className="w-14 h-14 object-contain"
+            />
             <div>
               <h1 className="text-2xl font-bold text-green-700">SaladGo</h1>
               <p className="text-xs text-gray-500">Freshness Delivered Fast</p>
@@ -378,7 +380,7 @@ export default function SaladGoWebsite() {
             <div className="space-y-3 text-gray-400">
               <p>📞 +91 9929622655</p>
               <p>📍 Bikaner, Rajasthan</p>
-              <p>🕒 7 PM - 11 PM</p>
+              <p>🕒 7 AM - 11 PM</p>
             </div>
           </div>
 
@@ -387,7 +389,7 @@ export default function SaladGoWebsite() {
             <div className="flex flex-col gap-4">
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder="saladgo.in@gmail.com"
                 className="bg-white/10 border border-white/20 rounded-2xl px-4 py-3 outline-none"
               />
 
