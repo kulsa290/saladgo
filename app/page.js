@@ -32,11 +32,23 @@ export default function SaladGoWebsite() {
       <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-green-100 shadow-sm">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img 
-              src="/logo.svg" 
-              alt="SaladGo Logo" 
-              className="w-14 h-14 object-contain"
-            />
+            <div className="w-12 h-12 flex-shrink-0">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+                <defs>
+                  <style>{`.leaf { fill: #16a34a; } .fork { fill: #15803d; }`}</style>
+                </defs>
+                <rect x="85" y="120" width="30" height="70" rx="15" className="fork"/>
+                <rect x="70" y="50" width="8" height="70" rx="4" className="fork"/>
+                <rect x="96" y="40" width="8" height="80" rx="4" className="fork"/>
+                <rect x="122" y="50" width="8" height="70" rx="4" className="fork"/>
+                <circle cx="100" cy="120" r="12" className="fork"/>
+                <ellipse cx="60" cy="80" rx="16" ry="24" className="leaf" transform="rotate(-35 60 80)"/>
+                <ellipse cx="50" cy="110" rx="14" ry="20" className="leaf" transform="rotate(-15 50 110)"/>
+                <ellipse cx="140" cy="80" rx="16" ry="24" className="leaf" transform="rotate(35 140 80)"/>
+                <ellipse cx="150" cy="110" rx="14" ry="20" className="leaf" transform="rotate(15 150 110)"/>
+                <ellipse cx="100" cy="35" rx="12" ry="18" className="leaf" transform="rotate(0 100 35)"/>
+              </svg>
+            </div>
             <div>
               <h1 className="text-2xl font-bold text-green-700">SaladGo</h1>
               <p className="text-xs text-gray-500">Freshness Delivered Fast</p>
