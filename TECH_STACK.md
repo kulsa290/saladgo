@@ -1,0 +1,6 @@
+- Frontend: Next.js 15, TypeScript, Tailwind CSS, Framer Motion
+- Backend: Node.js, Express, MongoDB, Mongoose
+- Authentication: JWT + OTP
+- Payments: Razorpay integration
+- Deployment: Vercel (frontend), Railway (backend), MongoDB Atlas
+- Features: Products, Cart, Checkout, Orders, Admin Dashboard, WhatsApp integration
